@@ -14,9 +14,9 @@ const Navbar = () => {
     const { addWorkouts, savedWorkouts } = useContext(WorkoutContext);
 
     return (
-        <nav className="container mx-auto max-w-6xl  sticky top-0 z-50">
+        <nav className="sticky top-0 z-50  text-white bg-[#15171d]">
 
-            <div className="navbar">
+    <div className="navbar container mx-auto max-w-6xl">
 
                 <div className="navbar-start">
 
