@@ -51,9 +51,9 @@ const Navbar = () => {
 
                             <li>
                                 <Link
-                                    href="/Homepage"
+                                    href="/"
                                     className={
-                                        pathname === "/Homepage"
+                                        pathname === "/"
                                             ? "bg-[#1b1d21] text-[#b7f000]"
                                             : "text-white"
                                     }
@@ -64,9 +64,9 @@ const Navbar = () => {
 
                             <li>
                                 <Link
-                                    href="/My-plan"
+                                    href="/MyPlan"
                                     className={
-                                        pathname === "/My-plan"
+                                        pathname === "/MyPlan"
                                             ? "bg-[#1b1d21] text-[#b7f000]"
                                             : "text-white"
                                     }
@@ -82,7 +82,7 @@ const Navbar = () => {
                     <div className="flex items-center gap-2">
 
                         <Link
-                            href="/Homepage"
+                            href="/"
                             className="flex items-center gap-2"
                         >
                             <Image
@@ -110,8 +110,8 @@ const Navbar = () => {
 
                         <li>
                             <Link
-                                href="/Homepage"
-                                className={`rounded-xl px-4 py-2 ${pathname === "/Homepage"
+                                href="/"
+                                className={`rounded-xl px-4 py-2 ${pathname === "/"
                                     ? "bg-[#1b1d21] text-[#b7f000]"
                                     : "text-white hover:text-[#b7f000]"
                                     }`}
@@ -123,8 +123,8 @@ const Navbar = () => {
 
                         <li>
                             <Link
-                                href="/My-plan"
-                                className={`rounded-xl px-4 py-2 ${pathname === "/My-plan"
+                                href="/MyPlan"
+                                className={`rounded-xl px-4 py-2 ${pathname === "/MyPlan"
                                     ? "bg-[#1b1d21] text-[#b7f000]"
                                     : "text-white hover:text-[#b7f000]"
                                     }`}
@@ -140,7 +140,7 @@ const Navbar = () => {
 
                 <div className="navbar-end">
 
-                    <Link href="/My-plan">
+                    <Link href="/MyPlan">
 
                         <button className=" btn btn-ghost">
                             <span className='text-white'>Plan</span>

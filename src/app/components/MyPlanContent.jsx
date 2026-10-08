@@ -271,7 +271,7 @@ const MyPlanContent = ({ workouts }) => {
                             </p>
 
                             <Link
-                                href="/Homepage"
+                                href="/"
                                 className="mt-5 rounded-xl bg-[#b7f000] px-5 py-3 text-sm font-bold text-black"
                             >
                                 Go to workouts
