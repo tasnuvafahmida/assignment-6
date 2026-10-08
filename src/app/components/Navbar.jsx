@@ -64,9 +64,9 @@ const Navbar = () => {
 
                             <li>
                                 <Link
-                                    href="/MyPlan"
+                                    href="/my-plan"
                                     className={
-                                        pathname === "/MyPlan"
+                                        pathname === "/my-plan"
                                             ? "bg-[#1b1d21] text-[#b7f000]"
                                             : "text-white"
                                     }
@@ -123,8 +123,8 @@ const Navbar = () => {
 
                         <li>
                             <Link
-                                href="/MyPlan"
-                                className={`rounded-xl px-4 py-2 ${pathname === "/MyPlan"
+                                href="/my-plan"
+                                className={`rounded-xl px-4 py-2 ${pathname === "/my-plan"
                                     ? "bg-[#1b1d21] text-[#b7f000]"
                                     : "text-white hover:text-[#b7f000]"
                                     }`}
@@ -140,7 +140,7 @@ const Navbar = () => {
 
                 <div className="navbar-end">
 
-                    <Link href="/MyPlan">
+                    <Link href="/my-plan">
 
                         <button className=" btn btn-ghost">
                             <span className='text-white'>Plan</span>
