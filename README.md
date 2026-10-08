@@ -3,13 +3,21 @@
 FitLog is a modern and responsive workout library designed to help users explore exercises, view detailed workout information, and create a personalized workout plan. The project features a clean dark-themed interface and provides a smooth experience across mobile, tablet, and desktop devices.
 
 🚀 Technologies Used
+
 Next.js — React framework for building the application
+
 React — Component-based UI development
+
 Tailwind CSS — Responsive styling and layout
+
 DaisyUI — UI components and loading animations
+
 JavaScript (JSX) — Application logic and components
+
 REST API — Fetching workout and exercise data
+
 ✨ Key Features
+
 1. 🏋️ Workout Library
 
 Browse a collection of exercises and workouts fetched dynamically from the FitLog API.
@@ -36,10 +44,15 @@ FitLog uses a dark, modern fitness-inspired interface designed to provide a focu
 
 
 📌 Project Highlights
+
 Dark-themed modern UI
+
 Responsive design
+
 Dynamic API-based workout data
+
 Personalized workout planning
+
 Smooth loading and user feedback experience
 
 
